@@ -14,34 +14,12 @@ const NftCollection = () => {
     if (newWindow) newWindow.opener = null;
   };
 
-  async function getNumberMinted() {
-    const ABI = [
-      {
-        inputs: [],
-        name: "nftCount",
-        outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
-        stateMutability: "view",
-        type: "function",
-      },
-    ];
 
-    const nftCountOptions = {
-      chain: "avalanche",
-      address: "0x0c6945e825fc3c80f0a1ea1d3e24d6854f7460d8",
-      function_name: "nftCount",
-      abi: ABI,
-      params: {},
-    };
-    const nftsMinted = await Moralis.Web3API.native.runContractFunction(
-      nftCountOptions
-    );
-    setSpotsMinted(nftsMinted);
-  }
 
   //Minting: cleanup. try to use one function with inputs from buttons changing number of mints and value vs multiple functions
   async function mint1Nft() {
     let options = {
-      contractAddress: "0x0C6945E825fc3c80F0a1eA1d3E24d6854F7460d8",
+      contractAddress: "0x6BDAd2A83a8e70F459786a96a0a9159574685c0e",
       functionName: "mintNFT",
       abi: [
         {
@@ -67,7 +45,7 @@ const NftCollection = () => {
 
   async function mint5Nft() {
     let options = {
-      contractAddress: "0x0C6945E825fc3c80F0a1eA1d3E24d6854F7460d8",
+      contractAddress: "0x6BDAd2A83a8e70F459786a96a0a9159574685c0e",
       functionName: "mintNFT",
       abi: [
         {
@@ -95,7 +73,7 @@ const NftCollection = () => {
 
   async function mint10Nft() {
     let options = {
-      contractAddress: "0x0C6945E825fc3c80F0a1eA1d3E24d6854F7460d8",
+      contractAddress: "0x6BDAd2A83a8e70F459786a96a0a9159574685c0e",
       functionName: "mintNFT",
       abi: [
         {
