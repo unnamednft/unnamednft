@@ -110,7 +110,7 @@ const NftCollection = () => {
             <h1>FREE MINT!! MAX 10</h1>
           </div>
           <div className="font-bold text-xl mb-2 flex justify-center">
-            <h1>REVEAL AFTER MINT</h1>
+            <h1>REVEAL AFTER MINT COMPLETE</h1>
           </div>
 
           <div className="text-slate-50 text-base">
