@@ -21,7 +21,7 @@ function LogoutButton() {
   return (
     <div className="text-right md:flex lg:flex xl:flex xxl:flex align-middle py-0 sm:py-1">
       <div className="align-middle py-2">
-        <h1 className="text-slate-600 text-right font-mono px-10 py-0">
+        <h1 className="text-gray-200 text-right font-mono px-10 py-0">
           <b>Wallet:</b>{" "}
           {chainId === "0xa86a" ? (
             account.substring(0, 5) + "..." + account.slice(-4)

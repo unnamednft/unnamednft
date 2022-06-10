@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 export const Navbar = () => {
   let Links = [
 
-    { name: "Twitter", link: "https://twitter.com/TheSpotnft" },
+
    
   ];
   const [open, setOpen] = useState(false);
@@ -13,7 +13,7 @@ export const Navbar = () => {
   return (
     <nav className="main-nav pb-20">
       <div className="shadow-md w-full fixed top-0 left-0">
-        <div className="md:flex lg:flex xl:flex xxl:flex items-center justify-between bg-lime-400 py-0 px-7">
+        <div className="md:flex lg:flex xl:flex xxl:flex items-center justify-between bg-blue-600 py-0 px-7">
           <div className="desktop-nav">
             <ul
               className={`md:flex lg:flex xl:flex xxl:flex md:items-center lg:items-center xl:items-center xxl:items-center font-mono md:pb-0 lg:pb-0 xl:pb-0 xxl:pb-0 pb-12 absolute md:static lg:static xl:static xxl:static bg-lime-400 md:z-auto lg:z-auto xl:z-auto xxl:z-auto z-[-1] 

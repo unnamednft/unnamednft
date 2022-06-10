@@ -35,7 +35,7 @@ function App() {
   }
 
   return (
-    <div className="bg-neutral-400">
+    <div className="bg-pink-500">
       <Navbar />
       <Routes>
         <Route path="/" exact element={<Main />} />

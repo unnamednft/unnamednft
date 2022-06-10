@@ -124,8 +124,8 @@ const NftCollection = () => {
 
 
   return (
-    <div className="p-10 flex-none gap-10 font-mono text-lime-400 bg-neutral-400">
-      <div className="w-full rounded overflow-hidden shadow-lg bg-neutral-800 hover: hover:scale-105 hover:bg-slate-500 duration-300">
+    <div className="p-10 flex-none gap-10 font-mono text-gray-900 bg-pink-500">
+      <div className="w-full rounded overflow-hidden shadow-lg bg-lime-400 hover: hover:scale-105 hover:bg-yellow-300 duration-300">
         <div className="flex place-content-center"><img className="w-100 py-8" src={image} alt=""></img></div>
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 flex justify-center">
@@ -138,21 +138,21 @@ const NftCollection = () => {
           <div className="text-slate-50 text-base">
             <div className="flex flex-col grid gap-4 grid-cols-3 px-4 py-4 place-contents-center">
               <button
-                className="align-middle rounded-lg sm:px-4 md:px-4 lg:px-2 xl:px-4 px-4 py-2 border-4 border-lime-400 text-lime-400 
+                className="align-middle rounded-lg sm:px-4 md:px-4 lg:px-2 xl:px-4 px-4 py-2 border-4 border-gray-900 text-gray-900 
       hover:bg-lime-400 hover:text-black duration-300 hover:border-white font-mono text-l flex justify-center"
                 onClick={mint1Nft}
               >
                 1
               </button>
               <button
-                className="align-middle rounded-lg sm:px-4 md:px-4 lg:px-2 xl:px-4 px-4 py-2 border-4 border-lime-400 text-lime-400 
+                className="align-middle rounded-lg sm:px-4 md:px-4 lg:px-2 xl:px-4 px-4 py-2 border-4 border-gray-900 text-gray-900 
       hover:bg-lime-400 hover:text-black duration-300 hover:border-white font-mono text-l flex justify-center"
                 onClick={mint5Nft}
               >
                 5
               </button>
               <button
-                className="align-middle rounded-lg sm:px-4 md:px-4 lg:px-2 xl:px-4 px-4 py-2 border-4 border-lime-400 text-lime-400 
+                className="align-middle rounded-lg sm:px-4 md:px-4 lg:px-2 xl:px-4 px-4 py-2 border-4 border-gray-900 text-gray-900 
       hover:bg-lime-400 hover:text-black duration-300 hover:border-white font-mono text-l flex justify-center"
                 onClick={mint10Nft}
               >

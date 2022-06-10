@@ -10,14 +10,14 @@ export default function Authenticate() {
         <img
           src={image}
           className="shadow rounded h-auto align-middle border-none"
-          alt="The Spot Logo"
+          alt=""
         ></img>
         <div className="flex justify-center align-middle px-40 py-10">
           <button
             className="align-middle rounded-full px-4 py-2 border-4 border-lime-400 text-lime-400 
     hover:bg-lime-400 hover:text-black duration-300 hover:border-white font-mono text-l"
             onClick={() =>
-              authenticate({ signingMessage: "Sign in to The Spot!" })
+              authenticate({ signingMessage: "Sign in!" })
             }
           >
             <b>Authenticate</b>
