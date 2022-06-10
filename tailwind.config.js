@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "spot-yellow": "#fff600",
+        "bright-yellow": "#fff600",
       },
       screens: {
         sm: { min: "0px", max: "900px" },
