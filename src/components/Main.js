@@ -107,40 +107,13 @@ const NftCollection = () => {
         <div className="flex place-content-center"><img className="w-100 py-8" src={image} alt=""></img></div>
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 flex justify-center">
-            <h1>FREE MINT!! MAX 10</h1>
+            <h1>MINT COMPLETE!!</h1>
           </div>
           <div className="font-bold text-xl mb-2 flex justify-center">
-            <h1>REVEAL AFTER MINT COMPLETE</h1>
+            <h1></h1>
           </div>
 
-          <div className="text-slate-50 text-base">
-            <div className="flex flex-col grid gap-4 grid-cols-3 px-4 py-4 place-contents-center">
-              <button
-                className="align-middle rounded-lg sm:px-4 md:px-4 lg:px-2 xl:px-4 px-4 py-2 border-4 border-gray-900 text-gray-900 
-      hover:bg-pink-500 hover:text-black duration-300 hover:border-white font-mono text-l flex justify-center"
-                onClick={mint1Nft}
-              >
-                1
-              </button>
-              <button
-                className="align-middle rounded-lg sm:px-4 md:px-4 lg:px-2 xl:px-4 px-4 py-2 border-4 border-gray-900 text-gray-900 
-      hover:bg-pink-500 hover:text-black duration-300 hover:border-white font-mono text-l flex justify-center"
-                onClick={mint5Nft}
-              >
-                5
-              </button>
-              <button
-                className="align-middle rounded-lg sm:px-4 md:px-4 lg:px-2 xl:px-4 px-4 py-2 border-4 border-gray-900 text-gray-900 
-      hover:bg-pink-500 hover:text-black duration-300 hover:border-white font-mono text-l flex justify-center"
-                onClick={mint10Nft}
-              >
-                10
-              </button>
-        
-            </div>
-       
           
-          </div>
         </div>
       </div>
 
